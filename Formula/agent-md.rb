@@ -12,6 +12,6 @@ class AgentMd < Formula
   end
 
   test do
-    assert_match "0.5.0", shell_output("#{bin}/agent-md -v")
+    assert_match version.to_s, shell_output("#{bin}/agent-md -v")
   end
 end
