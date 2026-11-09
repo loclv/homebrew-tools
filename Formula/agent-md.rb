@@ -1,8 +1,8 @@
 class AgentMd < Formula
   desc "Fast Markdown editor, linter, and formatter designed for AI agents"
   homepage "https://github.com/loclv/agent-md"
-  url "https://github.com/loclv/agent-md/archive/refs/tags/v0.5.1.tar.gz"
-  sha256 "e24ebc3874b4458cd86c5acbe1500569595b04bdbe93d2590bd6283779c4e4db"
+  url "https://github.com/loclv/agent-md/archive/refs/tags/v0.5.3.tar.gz"
+  sha256 "d50de1d3b587419ab5235421722bf93986b038e4351ab58a74eac9e46e269e33"
   license "MIT"
 
   depends_on "rust" => :build
